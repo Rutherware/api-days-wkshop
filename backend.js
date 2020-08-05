@@ -9,4 +9,4 @@ const truliooMiddleware = require('trulioo-embedid-middleware')({
 });
 
 app.use(truliooMiddleware);
-app.listen(port, () => console.log(`Example app listening on port!`));
+app.listen(port, () => console.log(`The EmbedID Server is ready. Copy the server URL above.`));
